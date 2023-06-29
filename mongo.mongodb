@@ -1,0 +1,46 @@
+const { ObjectId } = require("mongodb");
+
+use('Beautysoft');
+
+
+// db.citasJhon.aggregate([
+//     {
+//                 $lookup: {
+//                   from: "servicios", //es desde donde me traigo la informacion
+//                   localField: "Id_servicio", //como se llama el id "donde me paro"
+//                   foreignField: "Id_servicio",
+//                   as: "servicios",
+//                 },
+//               },
+//               {
+//                 $unwind:'$servicios'
+//               }
+// ])
+
+
+// db.citasJhon.insertMany([
+//   {
+        
+//     Id_cita: 600,
+//     nombre: "Santigp",
+//     apellido: "Gomez",
+//     email: "Santiago@gmail.com",
+//     fecha_y_hora: "2023-01-20T18:40:10.946Z",
+//     estado: false,
+//     Id_estilista: 23,
+//     Id_servicio: 15
+// },
+// {
+        
+//   Id_cita: 700,
+//   nombre: "Santigo",
+//   apellido: "Gomez",
+//   email: "Julioghgh@hotmail.com",
+//   fecha_y_hora: "2022-01-20T18:40:10.946Z",
+//   estado: false,
+//   Id_estilista: 23,
+//   Id_servicio: 15
+// }
+// ])
+
+// db.getCollectionInfos({name: "serviciosJhon"})
